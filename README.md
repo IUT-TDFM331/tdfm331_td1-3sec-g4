@@ -48,4 +48,4 @@ codes couvert/non couverts par les tests.
 Luc BORIES
 Bilal HAMOUM
 Lena BITCH
-Gautier
+Gautier Benoit
