@@ -88,4 +88,37 @@ public class ListApiServiceTest {
         service.removeMeeting(meetingToRemove);
         Assert.assertFalse(service.getListMeetings().contains(meetingToRemove));
     }
+
+    @Test
+    public void findByObjectMeetingExist() throws MeetingNotFound {
+
+        // Create list Employee
+        List<Employee> listEmployees = Arrays.asList(new Employee("Baptiste", "baptiste@lamzone.com", 4),
+                new Employee("Fanny", "fanny@lamzone.com", 10),
+                new Employee("Vincent", "vincent@lamzone.com", 22));
+
+        // Create list Meeting
+        Meeting newMeeting = new Meeting("Réunion d'avancement",
+                "Planck",
+                "12/11/20",
+                "15:30",
+                "16:00",
+                "Revues des dernières actions",
+                listEmployees);
+
+        // Add Meeting
+        service.addMeeting(newMeeting);
+        Assert.assertSame(service.findByObject("Réunion d'avancement"),newMeeting);
+    }
+
+    @Test
+    public void findByObjectMeetingNotExist() throws MeetingNotFound{
+        String object = "false";
+        try{
+            Assert.assertEquals(service.findByObject(object), null);
+        }
+        catch(Exception e){
+            Assert.assertFalse("Error:" + e, false);
+        }
+    }
 }
