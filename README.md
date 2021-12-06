@@ -46,6 +46,6 @@ codes couvert/non couverts par les tests.
 
 ## Contributors 
 ```java
-//TODO
+BENOIT Gautier, BORIS Luc, BITCH Léna, HAMOUM Bilal
 ```
 
