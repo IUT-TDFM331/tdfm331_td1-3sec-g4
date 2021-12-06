@@ -46,6 +46,9 @@ codes couvert/non couverts par les tests.
 
 ## Contributors 
 ```java
-//TODO
+Luc BORIES
+Bilal HAMOUM
+Lena BITCH
+
 ```
 
