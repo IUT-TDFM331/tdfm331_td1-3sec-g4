@@ -44,8 +44,8 @@ codes couvert/non couverts par les tests.
 - Commits à chaque nouvelle fonctionnalité 
 - Attention, je dois pouvoir identifier clairement le travail de chaque membre du groupe. Ne laissez pas une seule personne macher tout le boulot. 
 
-## Contributors 
-Luc BORIES
-Bilal HAMOUM
-Lena BITCH
-Gautier Benoit
+## Contributors
+- BENOIT Gautier
+- BITCH Léna
+- BORIES Luc
+- HAMOUM Bilal
