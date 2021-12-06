@@ -45,10 +45,7 @@ codes couvert/non couverts par les tests.
 - Attention, je dois pouvoir identifier clairement le travail de chaque membre du groupe. Ne laissez pas une seule personne macher tout le boulot. 
 
 ## Contributors 
-```
-- BENOIT Gautier
-- BORIES Luc
-- BITCH Léna
-- HAMOUM Bilal
+```java
+//TODO
 ```
 
